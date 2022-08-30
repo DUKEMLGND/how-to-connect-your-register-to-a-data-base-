@@ -1,0 +1,26 @@
+
+body{
+    position: relative;
+}
+#loginPageImage{
+/* background-color: #222222; */
+background-image: url('/images/loginBg.jpg');
+background-size: cover;
+height:100vh;
+}
+
+#loginPageForm{
+margin:auto;
+}
+
+input[type="text"]{
+    width:80%;
+    height:50px;
+}
+input[type="password"]{
+    width:80%;
+    height:50px;
+}
+.form-label{
+    font-style: bold;
+}
