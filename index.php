@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Here</title>
+    <link rel="stylesheet" href="customStyle/customStyles.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row align-items-center">
+      <div id="loginPageImage" class="col" style="background-image: url('images/loginBg.jpg'); background-size:cover;">
+      <p></p>
+      </div>
+      <div id="loginPageForm" class="col p-5" >
+        <div>
+            <img src="images/logo.png" alt="Kirinyaga University Logo" style="width:240px; height:auto;">
+            <h1>Student Portal Login</h1>
+        </div>
+        <form action="retrive.php" method="POST">
+            <div class="mb-3">
+                <label for="regNoInput" class="form-label">Registration Number</label>
+                <input type="text" name="Registration_Number" class="form-control" id="regNoInput">
+            </div>
+            <div class="mb-3">
+                <label for="passwordInput" class="form-label">Password</label>
+                <input type="password" name="new_password" class="form-control" id="passwordInput">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" name="remembermeCheck" class="form-check-input" id="rememberDetails">
+                <label class="form-check-label" for="remememberDetails">Remember Me</label>
+            </div>
+            <button type="submit" name="loginButton"  class="btn btn-primary text-lg">Login Here</button>
+            <a href="RESETPASSWORD.php" target="_self">Reset Password</a>
+        </form><br>
+      Dont have An account?<a href="register.php" target="_self">Register Now </a>
+    </div>
+    </div>
+</div>
+
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

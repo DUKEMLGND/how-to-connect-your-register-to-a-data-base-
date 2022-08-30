@@ -1,0 +1,9 @@
+body{
+    background-image: url(/welcome-greeting-message.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+h1{
+    font-family: algerian;
+    font-weight: bolder;
+}
